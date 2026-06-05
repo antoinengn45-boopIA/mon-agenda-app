@@ -1,0 +1,13 @@
+:root {
+    --color-background-primary: #ffffff;
+    --color-background-secondary: #f9f9f9;
+    --color-text-primary: #333;
+    --color-text-secondary: #666;
+    --color-text-tertiary: #999;
+    --color-border-tertiary: #ddd;
+    --color-border-secondary: #ccc;
+    --border-radius-lg: 8px;
+    --border-radius-md: 4px;
+}
+
+/* Collez tout le reste du CSS ici */
