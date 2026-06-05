@@ -2,12 +2,38 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon Agenda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Agenda Équipe</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <script src="script.js"></script>
+<div class="platform">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Équipe</h2>
+            <button class="add-person-btn" id="openPersonModal"><i class="ti ti-plus"></i></button>
+        </div>
+        <div class="user-list" id="userList"></div>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <button class="nav-btn" id="prevWeek"><i class="ti ti-chevron-left"></i></button>
+            <span class="month-title" id="monthTitle"></span>
+            <button class="nav-btn" id="nextWeek"><i class="ti ti-chevron-right"></i></button>
+            <button class="nav-btn" id="todayBtn">Aujourd'hui</button>
+            <button class="add-btn" id="openEventModal"><i class="ti ti-plus"></i> Événement</button>
+            <button class="nav-btn" onclick="exportData()"><i class="ti ti-download"></i></button>
+        </div>
+        <div class="calendar-grid">
+            <div class="day-headers" id="dayHeaders"></div>
+            <div class="time-grid" id="timeGrid"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
