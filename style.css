@@ -1,13 +1,15 @@
 :root {
     --color-background-primary: #ffffff;
     --color-background-secondary: #f9f9f9;
-    --color-text-primary: #333;
-    --color-text-secondary: #666;
-    --color-text-tertiary: #999;
-    --color-border-tertiary: #ddd;
-    --color-border-secondary: #ccc;
+    --color-border-tertiary: #e5e5e5;
+    --color-border-secondary: #d1d1d1;
+    --color-text-primary: #2d3436;
+    --color-text-secondary: #636e72;
+    --color-text-tertiary: #b2bec3;
     --border-radius-lg: 8px;
     --border-radius-md: 4px;
 }
 
-/* Collez tout le reste du CSS ici */
+/* Ajoutez ici tout le reste de votre CSS original */
+.time-slot:hover { background: #f0f7ff; cursor: pointer; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
